@@ -15,6 +15,7 @@ Once Rust is installed we can build from source:
 ```
 git clone https://github.com/GalactechsLLC/dg_fast_farmer.git
 cd dg_fast_farmer
+git submodule update --init
 cargo build --release
 sudo cp target/release/ff /usr/local/bin/ff
 ```
